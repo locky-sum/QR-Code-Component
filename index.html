@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+    .info{
+      background-color: hsl(0, 0%, 100%);
+      display: flex;
+      flex-direction: column;
+      width: 330px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+    }
+
+.qr-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+    img{
+      padding: 15px;
+      width: 300px;
+      border-radius: 25px;
+    }
+
+    .text{
+      width: 280px;
+    }
+
+    h1{
+      color: hsl(218, 44%, 22%);
+      font-weight: 900;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    p{
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+      text-align: center;
+    }
+
+@media (max-width: 375px) {
+  
+  .info{
+      width: 280px;
+      border-radius: 20px;
+    }
+
+.qr-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+    img{
+      padding: 15px;
+      width: 250px;
+      border-radius: 25px;
+    }
+
+    .text{
+      width: 230px;
+    }
+
+    h1{
+      font-size: 15px;
+    }
+
+    p{
+      color: hsl(220, 15%, 55%);
+      font-size: 13px;
+      text-align: center;
+    }
+
+  
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="qr-info">
+    <div class="info">
+
+    <img src="./images/image-qr-code.png" alt="QR CODE">
+  
+
+  <div class="text">
+     <h1>
+    Improve your front-end skills by building projects
+  </h1>
+  <p>
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  </p>
+  </div>
+  </div>
+  </div>
+
+  
+
+  
+ 
+</body>
+</html>
